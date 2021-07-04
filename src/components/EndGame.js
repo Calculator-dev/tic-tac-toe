@@ -17,7 +17,7 @@ const EndGame = ({ setShow, setBoard, setMsg, calculateWinner, board, current, w
     const getStatus = (board) => {
         const winner = calculateWinner(board)
         if (winner) {
-            return `Congratulation you won ${current}`
+            return `Congratulations ${current} you won `
         } else if (board.every(Boolean)) {
             return `Draw`
         }
