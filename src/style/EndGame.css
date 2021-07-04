@@ -1,0 +1,88 @@
+.div-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    width: 60%;
+}
+
+.retry-button {
+    cursor: pointer;
+    width: 180px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #404B69;
+    background-color: #404B69;
+    color: white;
+}
+
+.retry-button:hover {
+    border: 1px solid #283149;
+    background-color: #283149;
+    color: white;
+    transition: 0.5s;
+}
+
+.history-button {
+    cursor: pointer;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.history-button:hover {
+    border: 1px solid #283149;
+    background-color: #283149;
+    color: white;
+    transition: 0.5s;
+}
+
+.reset-button {
+    cursor: pointer;
+    width: 180px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ffd500;
+    background-color: #ffd500;
+    color: #404B69;
+}
+
+.reset-button:hover {
+    border: 1px solid #ffdb26;
+    background-color: #ffdb26;
+    color: #404B69;
+    transition: 0.5s;
+}
+
+.status {
+    font-size: 50px;
+    color: white;
+}
+
+.end-game {
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    height: 350px;
+    margin: 150px auto;
+}
+
+.game-history {
+    display: flex;
+}
+.wins {
+    display: flex;
+    justify-content: center;
+}
+
+.win-messages {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;    
+  }

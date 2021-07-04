@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    font-size: 10px;
+    background: #2B2E4A;
+    padding-top: 4px;
+    color: white;
+    box-shadow: 0px 0 10px -5px black;
+}
+
+li {
+    display: inline;
+}
+
+.navbar-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.players-draw {
+    color: white;
+    font-size: 40px;
+}
+
+.players-win {
+    color: white;
+    font-size: 40px;
+    margin-left: 550px;
+}
+
+.game-name {
+    color: white;
+    font-size: 40px;
+}
