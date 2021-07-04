@@ -69,20 +69,33 @@
     margin: 150px auto;
 }
 
-.game-history {
-    display: flex;
-}
-.wins {
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 1200px) {
+    .end-game {
+        height: 200px;
+    }
 }
 
-.win-messages {
-    display: flex;
-    justify-content: center;
-    width: 700px;
-    color: white;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 20px;    
-  }
+@media screen and (max-width: 992px) {
+    .reset-button, .history-button, .retry-button {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .reset-button, .history-button, .retry-button {
+        width: 350px;
+        font-size: 12px;
+    }   
+
+    .div-buttons {
+        width: 80%;
+    }
+
+    .status {
+        font-size: 30px;
+    }
+    .end-game {
+        width: 500px;
+        margin: 80px auto;
+    }
+}

@@ -7,7 +7,6 @@ nav {
     top: 0;
     left: 0;
     height: 80px;
-    font-size: 10px;
     background: #2B2E4A;
     padding-top: 4px;
     color: white;
@@ -26,16 +25,48 @@ li {
 
 .players-draw {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .players-win {
     color: white;
-    font-size: 40px;
-    margin-left: 550px;
+    font-size: 30px;
+    margin-left: 500px;
 }
 
 .game-name {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .players-draw, .players-win, .game-name {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .players-draw, .players-win, .game-name {
+        font-size: 20px;
+    }
+
+    .players-win {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .players-draw, .players-win, .game-name {
+        font-size: 18px;
+    }
+
+    .players-win {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .players-win {
+        margin-left: 150px;
+    }
 }

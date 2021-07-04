@@ -62,6 +62,16 @@ footer {
     border: none;
     width: 500px;
     margin: 20px auto;
-    
 }
 
+@media screen and (max-width: 1200px) {
+    .board {
+        border: 3px solid #384259;
+	    border-radius: 8px;
+	    width: 350px;
+	    height: 350px;
+        margin:  auto;
+	    display: grid;
+	    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    }
+}
